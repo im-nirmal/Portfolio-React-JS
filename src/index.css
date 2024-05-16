@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poetsen One", sans-serif;
+}
+/* skills */
+.skill-image {
+  height: 200px;  /* Set a fixed height */
+  width: 100%;    /* Full width of the card */
+  object-fit: contain; /* Cover the frame without distorting the image */
+}
+.hover-shadow:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* projects */
+.project-image{
+  height: 200px;  /* Set a fixed height */
+  width: 100%;    /* Full width of the card */
+  object-fit: contain; /* Cover the frame without distorting the image */
+}
